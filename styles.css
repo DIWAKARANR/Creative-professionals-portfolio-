@@ -483,14 +483,14 @@ body, html {
 }
 
 .card {
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     perspective: 1000px;
     margin: 20px;
 }
 
 .card-inner {
-    width: 150%;
+    width: 100%;
     height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -502,8 +502,8 @@ body, html {
 
 .card-front, .card-back {
     position: absolute;
-    width: 200%;
-    height:150%;
+    width: 100%;
+    height:100%;
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
